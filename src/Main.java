@@ -140,6 +140,7 @@ public class Main {
         System.out.println("--------Initial Employees Details--------");
         payrollSystem.displayEmployee();
 
+        //creating a variable to remove the employee
         int idToRemove = 2;
         System.out.println("---------Removing Employees----------");
         String removedEmployeeInfo = payrollSystem.removeEmployee(idToRemove);
